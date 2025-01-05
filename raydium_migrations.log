@@ -9388,3 +9388,474 @@ Timestamp: 2025-01-05 15:20:06.345971
 2025-01-05 15:20:57,093 - INFO - → Incoming request to: /webhook
 2025-01-05 15:21:16,453 - INFO - → Incoming request to: /webhook
 2025-01-05 15:21:45,047 - INFO - → Incoming request to: /webhook
+2025-01-05 16:02:05,654 - INFO - Server starting on port 1001...
+2025-01-05 16:02:05,655 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 16:07:01,496 - INFO - → Incoming request to: /webhook
+2025-01-05 16:07:03,055 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: FERE AI (FERE)
+Token Address: 5LahFCpze1VJwarxCo8M5NuviroPaUADSDRoQT3Tpump
+Transaction: WTT96k4DAzPKfwPVBJ3fA5twzRKPf4CaGdSiWc4SVdUQjz3SU7zQhwYCJ6rxES2cao1Z9xzCuHjDnd54q8xEj4Y
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:07:03.055485
+==================================================
+2025-01-05 16:07:49,269 - INFO - → Incoming request to: /webhook
+2025-01-05 16:07:49,288 - INFO - → Incoming request to: /webhook
+2025-01-05 16:07:51,771 - INFO - → Incoming request to: /webhook
+2025-01-05 16:07:59,616 - INFO - → Incoming request to: /webhook
+2025-01-05 16:08:08,704 - INFO - → Incoming request to: /webhook
+2025-01-05 16:08:09,503 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: alexis (alexis)
+Token Address: 91QPC5QDoh6sR9GGN9sXfFq7H3MT5P9RTw8xZxqtpump
+Transaction: 2S9yUZ7MWWZjBJCSEK4D8bzR4wURP99HWgMbqpYTuBGytN2nxeifLRWNSMvnrpihFUAwfijteo4BMyMAraiwB7uR
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:08:09.503475
+==================================================
+2025-01-05 16:08:38,585 - INFO - → Incoming request to: /webhook
+2025-01-05 16:08:58,748 - INFO - → Incoming request to: /webhook
+2025-01-05 16:09:00,762 - INFO - → Incoming request to: /webhook
+2025-01-05 16:09:48,425 - INFO - → Incoming request to: /webhook
+2025-01-05 16:09:49,826 - INFO - → Incoming request to: /webhook
+2025-01-05 16:12:51,990 - INFO - → Incoming request to: /webhook
+2025-01-05 16:16:19,111 - INFO - → Incoming request to: /webhook
+2025-01-05 16:16:20,593 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: Perplexity AI (PPA)
+Token Address: 3ZMRgFvPY52tAEDMpbvTLFeivXjGiXBSWWPAmfpXpump
+Transaction: 5TBq8eZ4iEi1kjXuQJyFJG1uT2zSRmY8NGW48ZUYQrSebScnx5vJTviQSXhxWJBYtrGCYQmqhiWXy36Uh94WWiJy
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:16:20.593123
+==================================================
+2025-01-05 16:17:09,465 - INFO - → Incoming request to: /webhook
+2025-01-05 16:17:09,935 - INFO - → Incoming request to: /webhook
+2025-01-05 16:17:10,432 - INFO - → Incoming request to: /webhook
+2025-01-05 16:17:47,999 - INFO - → Incoming request to: /webhook
+2025-01-05 16:17:58,634 - INFO - → Incoming request to: /webhook
+2025-01-05 16:22:10,745 - INFO - → Incoming request to: /webhook
+2025-01-05 16:25:45,629 - INFO - → Incoming request to: /webhook
+2025-01-05 16:25:47,124 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: Mantra (Mantra)
+Token Address: HZAo4JD1CyjENCaK5UB5z3zXYif5WWevhwEQhTtupump
+Transaction: 31GSic8gGXZLgVDRMRSrNSt2q7GKpWNhXBBiXR94FuNtEU73wYEDovHukDGiaLM2niuELvBdHo8i5KyXsei5w9L3
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:25:47.124053
+==================================================
+2025-01-05 16:26:33,303 - INFO - → Incoming request to: /webhook
+2025-01-05 16:26:33,317 - INFO - → Incoming request to: /webhook
+2025-01-05 16:26:34,368 - INFO - → Incoming request to: /webhook
+2025-01-05 16:26:38,961 - INFO - → Incoming request to: /webhook
+2025-01-05 16:27:23,263 - INFO - → Incoming request to: /webhook
+2025-01-05 16:30:15,247 - INFO - → Incoming request to: /webhook
+2025-01-05 16:30:16,293 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: Wonder AI (Wonder)
+Token Address: EeQJyuEB1gaRQPgkDkYvz2eUBQvc5YMb2TUZmyfMpump
+Transaction: 2DBB4KvnGxttCrSdaTsSMTbVVTRnmy4oK4xYJZ9QSRdwrcJugaG7jtMmLGdapZMdfadDRBp7efHV2RjgNF1gXAH3
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:30:16.293711
+==================================================
+2025-01-05 16:31:05,489 - INFO - → Incoming request to: /webhook
+2025-01-05 16:31:05,525 - INFO - → Incoming request to: /webhook
+2025-01-05 16:31:07,517 - INFO - → Incoming request to: /webhook
+2025-01-05 16:31:36,479 - INFO - → Incoming request to: /webhook
+2025-01-05 16:31:55,993 - INFO - → Incoming request to: /webhook
+2025-01-05 16:31:57,371 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: Gaiming Labs (gAiming)
+Token Address: HF5jU1EvoD6AeK7EVjMqaBi24WPmgfstqYs9V1ndpump
+Transaction: 9LkJc6CNuNRwi67wXCw3DVy2okPuHEmW12UfaBxRwzcSpESYpQSiYxviJBfVLP9UPy4z8HJjY1HWe5v3Xq5vfS2
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:31:57.371749
+==================================================
+2025-01-05 16:32:45,285 - INFO - → Incoming request to: /webhook
+2025-01-05 16:32:45,304 - INFO - → Incoming request to: /webhook
+2025-01-05 16:32:47,181 - INFO - → Incoming request to: /webhook
+2025-01-05 16:33:37,590 - INFO - → Incoming request to: /webhook
+2025-01-05 16:33:46,945 - INFO - → Incoming request to: /webhook
+2025-01-05 16:41:21,644 - INFO - → Incoming request to: /webhook
+2025-01-05 16:41:23,751 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: megaagents by Sachin Kumar (megaagents)
+Token Address: 2Eb8KexqsCM2wWLoARh35o35FzS7qPGmuv4JSDvupump
+Transaction: 2tn3yXqCM4NQhZzTyMLRdQQHo8zswEVyhkt8uh1jsvkrkH6wzgpKMSSuTjP2g1yXsmxYNxq6i95UTc6JmUxLm8ps
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:41:23.751809
+==================================================
+2025-01-05 16:42:10,275 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:10,441 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:12,492 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:12,492 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:12,494 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:12,519 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:12,585 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:12,645 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:15,690 - INFO - → Incoming request to: /webhook
+2025-01-05 16:42:15,936 - INFO - → Incoming request to: /webhook
+2025-01-05 16:43:00,485 - INFO - → Incoming request to: /webhook
+2025-01-05 16:47:34,834 - INFO - Server starting on port 1001...
+2025-01-05 16:47:34,835 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 16:49:45,348 - INFO - → Incoming request to: /webhook
+2025-01-05 16:49:46,528 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: HIERO (HIERO)
+Token Address: HUqeS5W79Ub5RJdDJrDKKZGbbJbrF85WUaEA4DvSpump
+Transaction: 4YKcsvWvGnXAK698bkwNm8FehbzibZLgoMAEdBCqxAmKUxyLVNQtxaPDk9auh5YKzwW8RT1gMQ5HghNyLksGYpYW
+
+Top 5 Holders:
+
+Timestamp: 2025-01-05 16:49:46.527996
+==================================================
+2025-01-05 16:50:33,702 - INFO - → Incoming request to: /webhook
+2025-01-05 16:50:33,750 - INFO - → Incoming request to: /webhook
+2025-01-05 16:50:35,435 - INFO - → Incoming request to: /webhook
+2025-01-05 16:51:48,416 - INFO - → Incoming request to: /webhook
+2025-01-05 16:55:40,046 - INFO - Server starting on port 1001...
+2025-01-05 16:55:40,046 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 17:03:35,540 - INFO - Server starting on port 1001...
+2025-01-05 17:03:35,540 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 17:07:51,305 - INFO - → Incoming request to: /webhook
+2025-01-05 17:07:52,417 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: SPECTRE AI (SPECTRE)
+Token Address: H1oJmCa6qA7zFyFufwUmzPb11hLcVpzJ44ncHMuapump
+Transaction: L8swkANBMgzH3E866uaLnJBzJjpLamKffzHFkS3ZwjMRioVt8NHXwCNCbYHfGdfnuc2MXyFw7cPBg6pBH41Rt6Y
+
+Top 5 Holders:
+👉 39az...UJjg: 206,900,000,000,000
+👉 BDzb...WQft: 40,062,499,874,628
+👉 DZCk...KJ8C: 39,984,847,440,798
+👉 6ifN...4epR: 26,049,400,000,000
+👉 nigg...m5zS: 25,414,548,697,895
+Timestamp: 2025-01-05 17:07:52.417273
+==================================================
+2025-01-05 17:08:41,930 - INFO - → Incoming request to: /webhook
+2025-01-05 17:09:31,983 - INFO - → Incoming request to: /webhook
+2025-01-05 17:10:22,602 - INFO - → Incoming request to: /webhook
+2025-01-05 17:10:24,441 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: Sophie (Sophie)
+Token Address: FG69ZuzaFqehPxBMqJKvx12sNsMK28ofJHpVT3Hjpump
+Transaction: 3WdNVQedm1L1MTsdMyiAdRQU6Amu4Mb9NaDh7etjGWMQXBUZA6JArXwio4ccNoMRub1iQ74DxRv15DzSTPTjfcX1
+
+Top 5 Holders:
+👉 39az...UJjg: 206,900,000,000,000
+👉 FFxk...VG3n: 47,993,646,114,310
+👉 Demf...EeM6: 45,500,550,963,590
+👉 EHg5...Myaf: 32,980,751,180,853
+👉 6MnE...WgT8: 23,699,654,104,864
+Timestamp: 2025-01-05 17:10:24.441868
+==================================================
+2025-01-05 17:11:10,855 - INFO - → Incoming request to: /webhook
+2025-01-05 17:11:12,197 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: aiZen Cloud (AiZen)
+Token Address: 9rmnyKNWEYsTWRDGtNCK1Jb22C3oTxCkyaLwW8ippump
+Transaction: 3eV5kefD34kAt6cRGHi6d9W5mFpxLM8UXHf8C1eWjcL55HZGuDprXNFQp1UBhKwVFDEGQcV7bHhyNizy8aQCgSf4
+
+Top 5 Holders:
+👉 39az...UJjg: 206,900,000,000,000
+👉 GCxA...rJR5: 70,196,261,682,242
+👉 HxtP...tC6G: 52,685,813,000,000
+👉 5RYa...thQC: 41,571,752,833,051
+👉 EAwh...7BwX: 41,146,417,737,327
+Timestamp: 2025-01-05 17:11:12.197751
+==================================================
+2025-01-05 17:11:12,945 - INFO - → Incoming request to: /webhook
+2025-01-05 17:11:12,945 - INFO - → Incoming request to: /webhook
+2025-01-05 17:11:13,342 - INFO - → Incoming request to: /webhook
+2025-01-05 17:11:14,007 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:01,543 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:02,956 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:03,214 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:04,640 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: pussyfart coin (pussyfart)
+Token Address: 24UgeZSFSqwrXtenmhk6tprvbLaXPGVygcGFKTWDpump
+Transaction: 2pahcizxRLVLEHnhF5xnGx3hyHtBoijtMFQvnwkjjK8fb98XfvjXRJ6hyxJr7YDAbJ4GMoeQC56wwdn1Ku8XtWWh
+
+Top 5 Holders:
+👉 39az...UJjg: 206,900,000,000,000
+👉 FP5M...9E3c: 36,839,719,835,009
+👉 xvzD...Ktoy: 34,436,944,152,134
+👉 8sip...GFkF: 34,228,074,488,583
+👉 C4b1...UgkM: 33,262,829,564,991
+Timestamp: 2025-01-05 17:12:04.640220
+==================================================
+2025-01-05 17:12:46,966 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:48,150 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: rise_cosmos (RISE)
+Token Address: BTxvwCtt5XYHY1JJ9JQcrdtEforeMCgkPoUt5k98pump
+Transaction: 3y1kJ8iC3tRn3efFfTjH2zRYMXzqzvW9Na7Qfkzs8HSwSVhQb7RZA5RR9pcaBjy4xNQC49ngQ4aKMZVwYjy1vTvL
+
+Top 5 Holders:
+👉 39az...UJjg: 206,900,000,000,000
+👉 517m...U3vC: 92,326,782,339,634
+👉 5Vdd...eZ3F: 70,134,350,404,378
+👉 3fme...5Nxf: 31,240,443,454,144
+👉 284H...WMQk: 28,728,325,786,034
+Timestamp: 2025-01-05 17:12:48.150554
+==================================================
+2025-01-05 17:12:50,856 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:51,875 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:53,231 - INFO - → Incoming request to: /webhook
+2025-01-05 17:12:59,253 - INFO - → Incoming request to: /webhook
+2025-01-05 17:13:34,981 - INFO - → Incoming request to: /webhook
+2025-01-05 17:13:35,032 - INFO - → Incoming request to: /webhook
+2025-01-05 17:13:40,155 - INFO - → Incoming request to: /webhook
+2025-01-05 17:13:41,848 - INFO - → Incoming request to: /webhook
+2025-01-05 17:13:48,014 - INFO - → Incoming request to: /webhook
+2025-01-05 17:13:49,550 - INFO - → Incoming request to: /webhook
+2025-01-05 17:28:31,034 - INFO - Server starting on port 1001...
+2025-01-05 17:28:31,035 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 17:31:15,040 - INFO - → Incoming request to: /webhook
+2025-01-05 17:31:29,677 - INFO - → Incoming request to: /webhook
+2025-01-05 17:31:36,748 - INFO - → Incoming request to: /webhook
+2025-01-05 17:31:36,806 - INFO - → Incoming request to: /webhook
+2025-01-05 17:31:38,190 - INFO - → Incoming request to: /webhook
+2025-01-05 17:31:38,597 - INFO - → Incoming request to: /webhook
+2025-01-05 17:32:28,690 - INFO - → Incoming request to: /webhook
+2025-01-05 17:33:21,435 - INFO - → Incoming request to: /webhook
+2025-01-05 17:33:30,222 - INFO - → Incoming request to: /webhook
+2025-01-05 17:33:33,497 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: National Farting League  (NFL)
+Token Address: AtpVQDtsauwffiM2UxTFzRC1CJRGcrUkZuc1As51pump
+Transaction: 3KLeLtPjW8V2gd9hLTCRN4mXZfrMLrqomRuozyu918TsuQVdGze8fCUeP4Vs6ghzXJzua5Ry8dQNwsDTSBT6J8kW
+Total Holders: 1,000
+
+Top 5 Holders:
+1. <a href='https://solscan.io/account/39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg'>39az...UJjg</a>: 20690000.00%
+2. <a href='https://solscan.io/account/GLnv5r62d2i7zzBVnfpzq77FhAd4MkugPaknYgJRTBjQ'>GLnv...TBjQ</a>: 2966803.94%
+3. <a href='https://solscan.io/account/9U2q8bgAi2yCUe38zmoRyg3vR6pXwftirJopjYnnQDkJ'>9U2q...QDkJ</a>: 2803858.63%
+4. <a href='https://solscan.io/account/FPNLQZARRS88hGppK2w8S6toVZj2AMVJm7rXLKbwydKB'>FPNL...ydKB</a>: 2346787.73%
+5. <a href='https://solscan.io/account/8sziAz6Lp72eJXcBbqYQ8xwMbmXZaEZsjUronWrxGfxm'>8szi...Gfxm</a>: 2232795.21%
+Timestamp: 2025-01-05 17:33:33.497317
+==================================================
+2025-01-05 17:34:22,069 - INFO - → Incoming request to: /webhook
+2025-01-05 17:34:22,525 - INFO - → Incoming request to: /webhook
+2025-01-05 17:34:23,963 - INFO - → Incoming request to: /webhook
+2025-01-05 17:34:39,496 - INFO - → Incoming request to: /webhook
+2025-01-05 17:35:40,650 - INFO - → Incoming request to: /webhook
+2025-01-05 17:35:47,774 - INFO - → Incoming request to: /webhook
+2025-01-05 17:39:40,328 - INFO - → Incoming request to: /webhook
+2025-01-05 17:41:05,935 - INFO - Server starting on port 1001...
+2025-01-05 17:41:05,936 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 17:43:33,429 - INFO - → Incoming request to: /webhook
+2025-01-05 17:43:35,278 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: Trumpcoin (Trumpcoin)
+Token Address: 5CN1BfrpK96YwheX5f8su8TJwBGtZsb5wpXUk9Rppump
+Transaction: 3RLGQ6qqHDobqDQcD9Vuw2b7q7tMYoQrwBv1Ysjy3QBzEL95HgByixQbydibq8D1P3d6BTmgzYk1xrSbBAkFLNzz
+Total Holders: 637
+
+Top 5 Holders:
+🔄 <a href='https://solscan.io/account/39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg'>39az...UJjg</a>: 20.69%
+2. <a href='https://solscan.io/account/5tTR1ohoSNmuUcW689UB4HnC3puwDvmYKd8E9hzohpED'>5tTR...hpED</a>: 3.31%
+3. <a href='https://solscan.io/account/AMvLooXY6tKg2MmKMAt46T3tvsafaCcoUPqXPBrf4cHu'>AMvL...4cHu</a>: 3.24%
+4. <a href='https://solscan.io/account/7ffTVdyk2kSPzKGzCtrW5udVubkmVhK6GCtXPovGVyh7'>7ffT...Vyh7</a>: 3.08%
+5. <a href='https://solscan.io/account/GeBd2MTqX2K15wG2dponjneieeMnCBWoqXya6zn1FZkq'>GeBd...FZkq</a>: 2.61%
+Timestamp: 2025-01-05 17:43:35.278411
+==================================================
+2025-01-05 17:43:36,132 - INFO - → Incoming request to: /webhook
+2025-01-05 17:43:37,091 - INFO - → Incoming request to: /webhook
+2025-01-05 17:44:26,229 - INFO - → Incoming request to: /webhook
+2025-01-05 17:44:26,357 - INFO - → Incoming request to: /webhook
+2025-01-05 17:44:27,145 - INFO - → Incoming request to: /webhook
+2025-01-05 17:44:28,630 - INFO - → Incoming request to: /webhook
+2025-01-05 17:45:13,409 - INFO - → Incoming request to: /webhook
+2025-01-05 17:47:29,806 - INFO - → Incoming request to: /webhook
+2025-01-05 17:47:31,058 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: MOD AI (MOD)
+Token Address: vwbWf8cgHk9tq8LVy1Y7wwwosmbVzRaZ8XrNCNVpump
+Transaction: 643S4pu4H61LB7JQDEbnDXjBdbHYU2bAnHhyrNeAPFimp27ZyUzrqc7jD7Bh9s2hvkRKPtzeLFweZT8Ctep27Z2r
+Total Holders: 135
+
+Top 5 Holders:
+🔄 <a href='https://solscan.io/account/39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg'>39az...UJjg</a>: 20.69%
+2. <a href='https://solscan.io/account/HGEw8Qavdyzrnt7KMebLzANvgWAbWcNHDNXJJKtyoYF1'>HGEw...oYF1</a>: 3.01%
+3. <a href='https://solscan.io/account/DhGtvZdMXDsHPh21h9duRgCMPnuUHpZdBYjiFRgbxBdP'>DhGt...xBdP</a>: 2.08%
+4. <a href='https://solscan.io/account/D612KVQtf6NNdHjqB66Q3qN8TwZYQdhXcTLAAdNEyZHw'>D612...yZHw</a>: 1.26%
+5. <a href='https://solscan.io/account/4dRwpJ7PAcmtf5LYEuyf752Dn4soYVPRuLTieBPZaCxr'>4dRw...aCxr</a>: 1.22%
+Timestamp: 2025-01-05 17:47:31.058664
+==================================================
+2025-01-05 17:48:14,671 - INFO - → Incoming request to: /webhook
+2025-01-05 17:48:16,003 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: Remi (Remi)
+Token Address: HZUDdPRJE3DKr4qJ1RRhy8Ci6G23q5n8utr1zJFtpump
+Transaction: 4Rg4Nx9hbWtLXkqdVy6WfmhivGunvwTyE5VmARzJ37xcVbPQqA4VEwnqYabrxUgGtKaEB5rTdQiedkb77HJyqF7G
+Total Holders: 96
+
+Top 5 Holders:
+🔄 <a href='https://solscan.io/account/39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg'>39az...UJjg</a>: 20.69%
+2. <a href='https://solscan.io/account/HMR6GuzH9cAWFqas3FUoNvXH1guEWH4AC1zy7JJYWN3V'>HMR6...WN3V</a>: 7.54%
+3. <a href='https://solscan.io/account/9QUb4Vg3svLRtqv13n2p3DCWqA2mKUSHiZ3aJ3VbQqsR'>9QUb...QqsR</a>: 6.01%
+4. <a href='https://solscan.io/account/57wCvQJutRk8FbHGJY7AHGbWh9Q7u3RkV5fMeAiEtMM'>57wC...EtMM</a>: 5.02%
+5. <a href='https://solscan.io/account/FFxkKY9HiVGocX32UHetuMmLWUGAvLjUgPQPoFGTVG3n'>FFxk...VG3n</a>: 4.20%
+Timestamp: 2025-01-05 17:48:16.003491
+==================================================
+2025-01-05 17:48:20,657 - INFO - → Incoming request to: /webhook
+2025-01-05 17:48:20,711 - INFO - → Incoming request to: /webhook
+2025-01-05 17:48:21,251 - INFO - → Incoming request to: /webhook
+2025-01-05 17:48:22,024 - INFO - → Incoming request to: /webhook
+2025-01-05 17:49:03,641 - INFO - → Incoming request to: /webhook
+2025-01-05 17:49:03,733 - INFO - → Incoming request to: /webhook
+2025-01-05 17:49:05,686 - INFO - → Incoming request to: /webhook
+2025-01-05 17:49:10,895 - INFO - → Incoming request to: /webhook
+2025-01-05 17:49:32,017 - INFO - → Incoming request to: /webhook
+2025-01-05 17:49:48,787 - INFO - → Incoming request to: /webhook
+2025-01-05 17:49:54,580 - INFO - → Incoming request to: /webhook
+2025-01-05 17:53:21,863 - INFO - → Incoming request to: /webhook
+2025-01-05 17:53:37,739 - INFO - → Incoming request to: /webhook
+2025-01-05 17:53:37,769 - INFO - → Incoming request to: /webhook
+2025-01-05 17:53:41,796 - INFO - → Incoming request to: /webhook
+2025-01-05 17:53:47,913 - INFO - → Incoming request to: /webhook
+2025-01-05 17:54:04,565 - INFO - → Incoming request to: /webhook
+2025-01-05 17:54:29,413 - INFO - → Incoming request to: /webhook
+2025-01-05 17:58:46,620 - INFO - → Incoming request to: /webhook
+2025-01-05 17:59:18,508 - INFO - → Incoming request to: /webhook
+2025-01-05 17:59:20,089 - WARNING - 
+==================================================
+NEW TOKEN MIGRATION TO RAYDIUM DETECTED!
+Token: QTUZ Ai (QTUZ)
+Token Address: 36M4qjvQqh8ZLpGermX4Jjdf7uE7BQySr7v4YVxSpump
+Transaction: oW7fLYz1vsXyZMWwxuuVtMdaFzpnKnT3BcfmkVnLDdPQvSZAHuUDYaUKStkAHcrpgWzYW4b6gngFqnWi1XSApAh
+Total Holders: 118
+
+Top 5 Holders:
+🔄 <a href='https://solscan.io/account/39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg'>39az...UJjg</a>: 20.69%
+2. <a href='https://solscan.io/account/D7bE7zPcmwg8DUTLM9wUAVXWuk7XijuYeQG3efnmJhfa'>D7bE...Jhfa</a>: 5.02%
+3. <a href='https://solscan.io/account/77ZrmtgukeSxqH29EFBqtfGtaaAv2GyLGEec21pNUYM1'>77Zr...UYM1</a>: 4.34%
+4. <a href='https://solscan.io/account/GAinR3pnXjFhrHbyqYa8LC5oiHTF4kmatHSTNJ84z1wx'>GAin...z1wx</a>: 3.99%
+5. <a href='https://solscan.io/account/ENLzEAfmZb12Z1CnFpJJu6WC9CU7TFMZSjKuGHQy5XMy'>ENLz...5XMy</a>: 3.98%
+Timestamp: 2025-01-05 17:59:20.089353
+==================================================
+2025-01-05 18:00:08,601 - INFO - → Incoming request to: /webhook
+2025-01-05 18:00:08,670 - INFO - → Incoming request to: /webhook
+2025-01-05 18:00:09,165 - INFO - → Incoming request to: /webhook
+2025-01-05 18:00:39,709 - INFO - → Incoming request to: /webhook
+2025-01-05 18:00:57,958 - INFO - → Incoming request to: /webhook
+2025-01-05 18:05:47,021 - INFO - Server starting on port 1001...
+2025-01-05 18:05:47,022 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 18:09:00,005 - INFO - → Incoming request to: /webhook
+2025-01-05 18:11:07,981 - INFO - → Incoming request to: /webhook
+2025-01-05 18:11:58,683 - INFO - → Incoming request to: /webhook
+2025-01-05 18:12:49,653 - INFO - → Incoming request to: /webhook
+2025-01-05 18:12:49,686 - INFO - → Incoming request to: /webhook
+2025-01-05 18:12:50,102 - INFO - → Incoming request to: /webhook
+2025-01-05 18:12:51,357 - INFO - → Incoming request to: /webhook
+2025-01-05 18:12:53,010 - INFO - → Incoming request to: /webhook
+2025-01-05 18:13:14,567 - INFO - → Incoming request to: /webhook
+2025-01-05 18:13:39,003 - INFO - → Incoming request to: /webhook
+2025-01-05 18:13:39,578 - INFO - → Incoming request to: /webhook
+2025-01-05 18:13:39,627 - INFO - → Incoming request to: /webhook
+2025-01-05 18:13:40,948 - INFO - → Incoming request to: /webhook
+2025-01-05 18:13:41,625 - INFO - → Incoming request to: /webhook
+2025-01-05 18:14:30,523 - INFO - → Incoming request to: /webhook
+2025-01-05 18:17:51,172 - INFO - → Incoming request to: /webhook
+2025-01-05 18:18:49,771 - INFO - → Incoming request to: /webhook
+2025-01-05 18:22:24,533 - INFO - Server starting on port 1001...
+2025-01-05 18:22:24,534 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 18:40:17,811 - INFO - Server starting on port 1001...
+2025-01-05 18:40:17,811 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 18:45:20,322 - INFO - → Incoming request to: /webhook
+2025-01-05 18:45:20,360 - INFO - → Incoming request to: /webhook
+2025-01-05 18:45:21,866 - INFO - → Incoming request to: /webhook
+2025-01-05 18:45:26,752 - INFO - → Incoming request to: /webhook
+2025-01-05 18:45:34,141 - INFO - → Incoming request to: /webhook
+2025-01-05 18:46:55,034 - INFO - → Incoming request to: /webhook
+2025-01-05 18:47:46,273 - INFO - → Incoming request to: /webhook
+2025-01-05 18:47:47,304 - INFO - → Incoming request to: /webhook
+2025-01-05 18:47:47,649 - INFO - → Incoming request to: /webhook
+2025-01-05 18:47:52,149 - INFO - → Incoming request to: /webhook
+2025-01-05 18:48:35,373 - INFO - → Incoming request to: /webhook
+2025-01-05 18:53:19,726 - INFO - Server starting on port 1001...
+2025-01-05 18:53:19,727 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 18:56:07,554 - INFO - → Incoming request to: /webhook
+2025-01-05 18:57:41,234 - INFO - → Incoming request to: /webhook
+2025-01-05 18:57:44,129 - ERROR - Error in process_event: 'creation_time'
+Traceback (most recent call last):
+  File "/Users/mac/Desktop/thanefield/onchain/pf_jup/code_notifs/server.py", line 198, in process_event
+    token_info["creation_time"], current_time
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'creation_time'
+2025-01-05 18:58:30,443 - INFO - → Incoming request to: /webhook
+2025-01-05 18:58:30,472 - INFO - → Incoming request to: /webhook
+2025-01-05 18:58:31,502 - INFO - → Incoming request to: /webhook
+2025-01-05 18:59:15,886 - INFO - → Incoming request to: /webhook
+2025-01-05 18:59:20,304 - INFO - → Incoming request to: /webhook
+2025-01-05 19:00:34,864 - INFO - Server starting on port 1001...
+2025-01-05 19:00:34,865 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 19:03:42,676 - INFO - → Incoming request to: /webhook
+2025-01-05 19:03:47,286 - INFO - → Incoming request to: /webhook
+2025-01-05 19:03:47,316 - INFO - → Incoming request to: /webhook
+2025-01-05 19:03:51,049 - INFO - → Incoming request to: /webhook
+2025-01-05 19:03:51,051 - INFO - → Incoming request to: /webhook
+2025-01-05 19:04:29,077 - INFO - → Incoming request to: /webhook
+2025-01-05 19:04:29,079 - INFO - → Incoming request to: /webhook
+2025-01-05 19:04:29,515 - INFO - → Incoming request to: /webhook
+2025-01-05 19:09:31,300 - INFO - → Incoming request to: /webhook
+2025-01-05 19:16:44,428 - INFO - → Incoming request to: /webhook
+2025-01-05 19:17:17,439 - INFO - → Incoming request to: /webhook
+2025-01-05 19:17:33,712 - INFO - → Incoming request to: /webhook
+2025-01-05 19:17:35,225 - INFO - → Incoming request to: /webhook
+2025-01-05 19:17:36,956 - INFO - → Incoming request to: /webhook
+2025-01-05 19:17:49,595 - INFO - → Incoming request to: /webhook
+2025-01-05 19:18:08,695 - INFO - → Incoming request to: /webhook
+2025-01-05 19:18:08,989 - INFO - → Incoming request to: /webhook
+2025-01-05 19:18:09,053 - INFO - → Incoming request to: /webhook
+2025-01-05 19:18:15,490 - INFO - → Incoming request to: /webhook
+2025-01-05 19:18:24,620 - INFO - → Incoming request to: /webhook
+2025-01-05 19:19:00,520 - INFO - → Incoming request to: /webhook
+2025-01-05 19:20:16,350 - INFO - Server starting on port 1001...
+2025-01-05 19:20:16,350 - INFO - Monitoring migrations to Raydium account: 39azUYFWPz3VHgKCf3VChUwbpURdCHRxjWVowf5jUJjg
+2025-01-05 19:24:09,911 - INFO - → Incoming request to: /webhook
+2025-01-05 19:25:00,946 - INFO - → Incoming request to: /webhook
+2025-01-05 19:25:01,232 - INFO - → Incoming request to: /webhook
+2025-01-05 19:25:02,096 - INFO - → Incoming request to: /webhook
+2025-01-05 19:25:03,093 - INFO - → Incoming request to: /webhook
+2025-01-05 19:25:51,415 - INFO - → Incoming request to: /webhook
+2025-01-05 19:29:18,167 - INFO - → Incoming request to: /webhook
+2025-01-05 19:30:07,542 - INFO - → Incoming request to: /webhook
+2025-01-05 19:30:07,962 - INFO - → Incoming request to: /webhook
+2025-01-05 19:30:10,157 - INFO - → Incoming request to: /webhook
+2025-01-05 19:30:48,548 - INFO - → Incoming request to: /webhook
+2025-01-05 19:30:55,306 - INFO - → Incoming request to: /webhook
+2025-01-05 19:34:40,690 - INFO - → Incoming request to: /webhook
+2025-01-05 19:34:41,016 - INFO - → Incoming request to: /webhook
+2025-01-05 19:35:29,340 - INFO - → Incoming request to: /webhook

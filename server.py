@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 import uvicorn
 from dotenv import load_dotenv
 import requests
@@ -48,6 +48,41 @@ async def webhook(request: Request):
         return {"status": "error", "message": str(e)}
 
 
+async def get_first_transaction(mint):
+    API_KEY = os.getenv("HELIUS_API_KEY")
+    url = f"https://mainnet.helius-rpc.com/?api-key={API_KEY}"
+
+    payload = {
+        "jsonrpc": "2.0",
+        "id": "helius-test",
+        "method": "getSignaturesForAddress",
+        "params": [mint],  # Simplified params to match the example
+    }
+
+    try:
+        response = requests.post(
+            url, headers={"Content-Type": "application/json"}, json=payload
+        )
+        data = response.json()
+
+        if (
+            "result" in data
+            and isinstance(data["result"], list)
+            and len(data["result"]) > 0
+        ):
+
+            first_tx = data["result"][-1]  # Get the last (oldest) transaction
+            return {
+                "signature": first_tx.get("signature"),
+                "slot": first_tx.get("slot"),
+                "blockTime": first_tx.get("blockTime"),
+            }
+        return None
+    except Exception as e:
+        logger.error(f"Error fetching first transaction: {e}")
+        return None
+
+
 async def get_token_info(mint):
     API_KEY = os.getenv("HELIUS_API_KEY")
     url = f"https://mainnet.helius-rpc.com/?api-key={API_KEY}"
@@ -67,14 +102,34 @@ async def get_token_info(mint):
 
         if "result" in data and "content" in data["result"]:
             metadata = data["result"]["content"].get("metadata", {})
+            first_tx = await get_first_transaction(mint)
+
             return {
                 "name": metadata.get("name", "Unknown"),
                 "symbol": metadata.get("symbol", "Unknown"),
+                "first_tx": first_tx,
             }
-        return {"name": "Unknown", "symbol": "Unknown"}
+        return {"name": "Unknown", "symbol": "Unknown", "first_tx": None}
     except Exception as e:
         logger.error(f"Error fetching token info: {e}")
-        return {"name": "Unknown", "symbol": "Unknown"}
+        return {"name": "Unknown", "symbol": "Unknown", "first_tx": None}
+
+
+def format_time_difference(start_time, end_time):
+    if not start_time:
+        return "Unknown"
+
+    diff = end_time - start_time
+    days = diff.days
+    hours = diff.seconds // 3600
+    minutes = (diff.seconds % 3600) // 60
+
+    if days > 0:
+        return f"{days}d {hours}h {minutes}m"
+    elif hours > 0:
+        return f"{hours}h {minutes}m"
+    else:
+        return f"{minutes}m"
 
 
 async def get_token_holders(mint):
@@ -85,7 +140,7 @@ async def get_token_holders(mint):
         "jsonrpc": "2.0",
         "id": "helius-test",
         "method": "getTokenAccounts",
-        "params": {"mint": mint, "showZeroBalance": False},
+        "params": {"mint": mint, "options": {"showZeroBalance": False}},
     }
 
     try:
@@ -95,17 +150,23 @@ async def get_token_holders(mint):
         data = response.json()
 
         if "result" in data and "token_accounts" in data["result"]:
-            # Sort holders by amount
             holders = data["result"]["token_accounts"]
-            holders.sort(key=lambda x: x.get("amount", 0), reverse=True)
+            total_holders = len(holders)
 
-            # Get top 5 holders
+            # Sort and get top 5
+            holders.sort(key=lambda x: x.get("amount", 0), reverse=True)
             top_holders = holders[:5]
-            return [{"owner": h["owner"], "amount": h["amount"]} for h in top_holders]
-        return []
+
+            return {
+                "total_holders": total_holders,
+                "top_holders": [
+                    {"owner": h["owner"], "amount": h["amount"]} for h in top_holders
+                ],
+            }
+        return {"total_holders": 0, "top_holders": []}
     except Exception as e:
         logger.error(f"Error fetching token holders: {e}")
-        return []
+        return {"total_holders": 0, "top_holders": []}
 
 
 async def process_event(event):
@@ -129,35 +190,49 @@ async def process_event(event):
 
             mint = transfer.get("mint")
             token_info = await get_token_info(mint)
-            holders = await get_token_holders(mint)
+            holders_info = await get_token_holders(mint)
 
-            # Format holders info
-            holders_text = "\n".join(
-                [
-                    f"👉 {h['owner'][:4]}...{h['owner'][-4:]}: {h['amount']:,.0f}"
-                    for h in holders
-                ]
-            )
+            # Calculate time to bond using blockTime from first_tx
+            current_time = datetime.now(timezone.utc)
+            first_tx_time = None
+            if token_info["first_tx"] and token_info["first_tx"]["blockTime"]:
+                first_tx_time = datetime.fromtimestamp(
+                    token_info["first_tx"]["blockTime"], tz=timezone.utc
+                )
+            time_to_bond = format_time_difference(first_tx_time, current_time)
 
-            transfer_info = (
-                f"\n{'='*50}\n"
-                f"NEW TOKEN MIGRATION TO RAYDIUM DETECTED!\n"
-                f"Token: {token_info['name']} ({token_info['symbol']})\n"
-                f"Token Address: {mint}\n"
-                f"Transaction: {tx_signature}\n"
-                f"\nTop 5 Holders:\n{holders_text}\n"
-                f"Timestamp: {datetime.now()}\n"
-                f"{'='*50}"
-            )
+            TOTAL_SUPPLY = 1_000_000_000_000_000
+            LP_AMOUNT = 206_900_000_000_000
 
-            logger.warning(transfer_info)
+            holders_text = []
+            for idx, holder in enumerate(holders_info["top_holders"], 1):
+                amount = float(holder["amount"])
+                percentage = (amount / TOTAL_SUPPLY) * 100
+                address = holder["owner"]
+
+                if abs(amount - LP_AMOUNT) < 1000000:
+                    prefix = "🔄"
+                else:
+                    prefix = f"{idx}."
+
+                holder_line = (
+                    f"{prefix} <a href='https://solscan.io/account/{address}'>"
+                    f"{address[:4]}...{address[-4:]}</a>: {percentage:.2f}%"
+                )
+                holders_text.append(holder_line)
+
+            holders_formatted = "\n".join(holders_text)
+
+            # Create PumpFun URL
+            pumpfun_url = f"https://pump.fun/coin/{mint}"
 
             message = (
-                f"🚀 <b>New Token Migration to Raydium</b>\n\n"
-                f"Token: {token_info['name']} ({token_info['symbol']})\n"
-                f"Token: <code>{mint}</code>\n"
-                f"\n<b>Top 5 Holders:</b>\n{holders_text}\n\n"
-                f"<a href='https://solscan.io/tx/{tx_signature}'>View Transaction</a>"
+                f"PF → Raydium ${token_info['symbol']}\n"
+                f"<a href='{pumpfun_url}'>{token_info['name']}</a>\n\n"
+                f"CA: <a href='https://solscan.io/token/{mint}'>{mint}</a>\n"
+                f"To bond: {time_to_bond}\n"
+                f"Holders: {holders_info['total_holders']:,}\n\n"
+                f"<b>Top 5 holders:</b>\n{holders_formatted}\n"
             )
 
             send_telegram_message(message)
