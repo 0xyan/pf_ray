@@ -77,6 +77,37 @@ async def get_token_info(mint):
         return {"name": "Unknown", "symbol": "Unknown"}
 
 
+async def get_token_holders(mint):
+    API_KEY = os.getenv("HELIUS_API_KEY")
+    url = f"https://mainnet.helius-rpc.com/?api-key={API_KEY}"
+
+    payload = {
+        "jsonrpc": "2.0",
+        "id": "helius-test",
+        "method": "getTokenAccounts",
+        "params": {"mint": mint, "showZeroBalance": False},
+    }
+
+    try:
+        response = requests.post(
+            url, headers={"Content-Type": "application/json"}, json=payload
+        )
+        data = response.json()
+
+        if "result" in data and "token_accounts" in data["result"]:
+            # Sort holders by amount
+            holders = data["result"]["token_accounts"]
+            holders.sort(key=lambda x: x.get("amount", 0), reverse=True)
+
+            # Get top 5 holders
+            top_holders = holders[:5]
+            return [{"owner": h["owner"], "amount": h["amount"]} for h in top_holders]
+        return []
+    except Exception as e:
+        logger.error(f"Error fetching token holders: {e}")
+        return []
+
+
 async def process_event(event):
     try:
         tx_signature = event.get("signature")
@@ -98,6 +129,15 @@ async def process_event(event):
 
             mint = transfer.get("mint")
             token_info = await get_token_info(mint)
+            holders = await get_token_holders(mint)
+
+            # Format holders info
+            holders_text = "\n".join(
+                [
+                    f"👉 {h['owner'][:4]}...{h['owner'][-4:]}: {h['amount']:,.0f}"
+                    for h in holders
+                ]
+            )
 
             transfer_info = (
                 f"\n{'='*50}\n"
@@ -105,6 +145,7 @@ async def process_event(event):
                 f"Token: {token_info['name']} ({token_info['symbol']})\n"
                 f"Token Address: {mint}\n"
                 f"Transaction: {tx_signature}\n"
+                f"\nTop 5 Holders:\n{holders_text}\n"
                 f"Timestamp: {datetime.now()}\n"
                 f"{'='*50}"
             )
@@ -115,6 +156,7 @@ async def process_event(event):
                 f"🚀 <b>New Token Migration to Raydium</b>\n\n"
                 f"Token: {token_info['name']} ({token_info['symbol']})\n"
                 f"Token: <code>{mint}</code>\n"
+                f"\n<b>Top 5 Holders:</b>\n{holders_text}\n\n"
                 f"<a href='https://solscan.io/tx/{tx_signature}'>View Transaction</a>"
             )
 
