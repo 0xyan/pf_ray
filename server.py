@@ -31,7 +31,7 @@ async def log_requests(request: Request, call_next):
     return response
 
 
-@app.post("/webhook")
+@app.post("/")
 async def webhook(request: Request):
     try:
         data = await request.json()
@@ -271,8 +271,8 @@ async def test():
 
 
 if __name__ == "__main__":
-    logger.info("Server starting on port 1001...")
+    logger.info("Server starting on port 8005...")
     logger.info(
         f"Monitoring migrations to Raydium account: {RAYDIUM_MIGRATION_ACCOUNT}"
     )
-    uvicorn.run(app, host="0.0.0.0", port=1001)
+    uvicorn.run(app, host="0.0.0.0", port=8005)

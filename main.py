@@ -44,6 +44,6 @@ if __name__ == "__main__":
         delete_webhook(webhook["webhookID"])
 
     # Create new webhook
-    NGROK_URL = input("Enter your ngrok URL: ")
-    webhook_response = create_webhook(f"{NGROK_URL}/webhook")
+    URL = "http://54.79.31.7:8005"
+    webhook_response = create_webhook(f"{URL}")
     print(f"Webhook created: {webhook_response}")
